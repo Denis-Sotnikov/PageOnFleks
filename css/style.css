@@ -31,7 +31,6 @@ body{
 	box-shadow: 0 0 10px #000;
 	background-color:#445162;
 	flex-direction: column;
-	overflow: scroll;
 	flex: 1 1 auto;
 }
 .block_hi{
@@ -95,9 +94,7 @@ body{
 .body__content__second{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	padding-top: 50px;
+	align-items: center;
 	background-color: #f5f5f5;
 	flex-grow: 1;
 }.body__content__three{
@@ -125,45 +122,72 @@ body{
 	flex: 1 1 auto;
 }
 .body__content__second__mainText{
+	padding-top: 50px;
 	font-family: Arial;
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: 400;
 	color: #445161;
-	text-align: center;
 }
 .body__content__second__colomns{
 	display: flex;
-	background-color:pink;
 	justify-content: space-between;
+	flex: 1 1 auto;
 }
 .body__content__second__colomns__first{
-	background-color:orangered;
-	flex-grow: 1;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+	flex: 1 1 auto;
+}
+.body__content__second__colomns__first p{
+	font-family: Arial;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #445161;
+}
+.body__content__second__colomns__first__1__text{
+	padding-left: 15px;;
 }
 .body__content__second__colomns__second{
-	background-color:palegreen;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
 	flex-grow: 1;
-	height: 50px;
+	flex: 1 1 auto;
+}
+.body__content__second__colomns__second p{
+	font-family: Arial;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #445161;
 }
 .body__content__second__colomns__first__1{
-	flex-grow: 1;
-	
-	height: 100px;
-	background-color:saddlebrown;
+	display: flex;
+	padding: 50px 15px 30px 50px;
+	flex: 1 1 auto;
 }
 .body__content__second__colomns__first__2{
-	flex-grow: 1;
-	height: 100px;
-	background-color:slategrey;
+	display: flex;
+	padding: 50px 15px 30px 50px;
+	flex: 1 1 auto;
 }
 .body__content__second__colomns__second__1{
-	flex-grow: 1;
-	height: 100px;
-	background-color:rgb(80, 82, 83);
+	display: flex;
+	padding: 50px 15px 30px 50px;
+	flex: 1 1 auto;
 }
 .body__content__second__colomns__second__2{
-	flex-grow: 1;
-	height: 100px;
-	background-color:tomato;
+	display: flex;
+	padding: 50px 15px 30px 50px;
+	flex: 1 1 auto;
 }
