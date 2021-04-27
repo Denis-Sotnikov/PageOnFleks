@@ -123,7 +123,7 @@ body{
 	flex: 1 1 auto;
 }
 .body__content__second__mainText{
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 15px;
 	font-family: Arial;
 	font-size: 30px;
@@ -182,6 +182,7 @@ body{
 	flex: 1 1 auto;
 }
 .body__content__three__first{
+	padding: 30px;
 	font-family: Arial;
 	font-size: 30px;
 	line-height: 36px;
@@ -200,7 +201,7 @@ body{
 .body__content__three__second__1{
 	display: flex;
 	flex-direction: column;
-	margin: 35px 20px 35px 20px;
+	margin: 0px 20px 35px 20px;
 	background-color:#445162;
 	font-family: Arial;
 	font-size: 14px;
