@@ -33,12 +33,12 @@ body{
 	flex-direction: column;
 	flex: 1 1 auto;
 }
-.block_hi{
+.block-hi{
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 50px;
 }
-.block_hi_body{
+.block-hi-body{
 	font-family: Arial;
 	font-size: 20px;
 	line-height: 36px;
@@ -46,12 +46,12 @@ body{
 	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
 	color: #ffffff;
 }
-.block_hi_body ul li{
+.block-hi-body ul li{
 	padding-left: 30px;
 	margin: 0px 0px 0px 10px;
 	background: url('../img/icons/icon.png') left no-repeat;
 }
-.block_hi_body p{
+.block-hi-body p{
 	font-family: Arial;
 	font-size: 60px;
 	line-height: 1.2;
@@ -59,7 +59,7 @@ body{
 	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
 	color: #ffffff;
 }
-.body__content{
+.content{
 	background-color: mediumblue;
 	display: flex;
 	flex-direction: column;
@@ -82,16 +82,16 @@ body{
 	letter-spacing: 0.025em;
 	color: #445162;
 }
-.body__content__first{
+.content-first{
 	background-color: #ffffff;
 	flex-grow: 1;
 	display: flex;
 	flex: 1 1 auto;
 }
-.body__content__first:first-child{
+.content-first:first-child{
 	padding: 50px 0px 55px 40px;
 	}
-.body__content__second{
+.content-second{
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 30px;
@@ -103,7 +103,7 @@ body{
 	flex-grow: 1;
 	flex: 1 1 auto;
 }
-.body__content__first_text{
+.content-first-text{
 	padding-left: 50px;
 	padding-right: 50px;
 	font-family: Arial;
@@ -114,7 +114,7 @@ body{
 	color: #333333;
 	flex: 1 1 auto;
 }
-.body__content__first_text p{
+.content-first-text p{
 	font-family: Arial;
 	font-size: 30px;
 	line-height: 36px;
@@ -122,7 +122,7 @@ body{
 	color: #445161;
 	flex: 1 1 auto;
 }
-.body__content__second__mainText{
+.content-second-mainText{
 	padding-top: 30px;
 	padding-bottom: 15px;
 	font-family: Arial;
@@ -131,12 +131,12 @@ body{
 	font-weight: 400;
 	color: #445161;
 }
-.body__content__second__colomns{
+.content-second-colomns{
 	display: flex;
 	justify-content: space-between;
 	flex: 1 1 auto;
 }
-.body__content__second__colomns__first{
+.content-second-colomns-first{
 	font-family: Arial;
 	font-size: 16px;
 	line-height: 24px;
@@ -144,17 +144,17 @@ body{
 	color: #333333;
 	flex: 1 1 auto;
 }
-.body__content__second__colomns__first p{
+.content-second-colomns-first p{
 	font-family: Arial;
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: 400;
 	color: #445161;
 }
-.body__content__second__colomns__first__1__text{
+.second-colomns-first-1-text{
 	padding-left: 15px;;
 }
-.body__content__second__colomns__second{
+.content-second-colomns-second{
 	font-family: Arial;
 	font-size: 16px;
 	line-height: 24px;
@@ -166,17 +166,17 @@ body{
 	flex-grow: 1;
 	flex: 1 1 auto;
 }
-.body__content__second__colomns__second p{
+.content-second-colomns-second p{
 	font-family: Arial;
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: 400;
 	color: #445161;
 }
-.body__content__second__colomns__first__1,
-.body__content__second__colomns__first__2,
-.body__content__second__colomns__second__1,
-.body__content__second__colomns__second__2{
+.content-second-colomns-first-1,
+.content-second-colomns-first-2,
+.content-second-colomns-second-1,
+.content-second-colomns-second-2{
 	display: flex;
 	padding: 15px 15px 15px 30px;
 	flex: 1 1 auto;
